@@ -16,30 +16,31 @@ Designed with empathy and simplicity, Share n Care promotes small acts of kindne
 
 share-n-care/
 │
-├── app.py # Main Flask application
-├── requirements.txt # Python dependencies
+├── app.py                     # Main Flask application
+├── requirements.txt           # Python dependencies
 │
-├── static/ # Static assets (CSS, JS, Images)
-│ ├── css/
-│ │ └── style.css # Custom styles
-│ ├── js/
-│ │ └── main.js # Interactive scripts
-│ └── assets/
-│ └── hero-bg.jpg # Background and visual assets
+├── static/                    # Static assets (CSS, JS, Images)
+│   ├── css/
+│   │   └── style.css          # Custom styles
+│   ├── js/
+│   │   └── main.js            # Interactive scripts
+│   └── assets/
+│       └── hero-bg.jpg        # Background and visual assets
 │
-├── templates/ # HTML templates
-│ ├── base.html # Common layout
-│ ├── index.html # Homepage
-│ ├── about.html # About page
-│ ├── request_help.html # Help request page
-│ └── contact.html # Contact page
+├── templates/                 # HTML templates
+│   ├── base.html              # Common layout
+│   ├── index.html             # Homepage
+│   ├── about.html             # About page
+│   ├── request_help.html      # Help request page
+│   └── contact.html           # Contact page
 │
-└── README.md # Project overview and setup guide
+└── README.md                  # Project overview and setup guide
+
 
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
     ```bash
-   git clone https://github.com/yourusername/share-n-care.git
+   git clone https://github.com/DG3-here/share-n-care.git
    cd share-n-care
 
 2. **Create a virtual environment (optional but recommended)**
