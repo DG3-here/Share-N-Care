@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <h2>Connecting Communities through Kindness 🤝</h2>
+    <p>Join us in building a helping network where people support each other.</p>
+    <a href="{{ url_for('request_help') }}" class="btn">Post a Request</a>
+  </div>
+</section>
+
+<section class="feed">
+  <h3>Recent Help Requests</h3>
+  <div class="card-container">
+    {% for r in requests %}
+      <div class="card">
+        <h4>{{ r[1] }}</h4>
+        <p><strong>Category:</strong> {{ r[2] }}</p>
+        <p>{{ r[3] }}</p>
+        <p><strong>Contact:</strong> {{ r[4] }}</p>
+      </div>
+    {% else %}
+      <p>No requests yet. Be the first to post!</p>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

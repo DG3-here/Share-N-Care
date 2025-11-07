@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="form-section">
+  <h2>Request Help</h2>
+  <form method="POST">
+    <input type="text" name="name" placeholder="Your Full Name" required>
+
+    <select name="category" required>
+      <option value="" disabled selected>Select Help Category</option>
+      <option>Education Support</option>
+      <option>Food & Essentials</option>
+      <option>Medical Assistance</option>
+      <option>Technical Help</option>
+      <option>Other</option>
+    </select>
+
+    <textarea name="description" placeholder="Describe what you need..." rows="4" required></textarea>
+    <input type="text" name="contact" placeholder="Contact Details (Email / Phone)" required>
+
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+{% endblock %}
