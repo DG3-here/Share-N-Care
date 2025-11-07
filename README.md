@@ -14,21 +14,27 @@ Designed with empathy and simplicity, Share n Care promotes small acts of kindne
 
 ## 🧩 Project Structure
 
-share-n-care/
-├── app.py
-├── requirements.txt
-├── static/
-│ ├── css/style.css
-│ ├── js/main.js
-│ └── assets/
-├── templates/
-│ ├── index.html
-│ ├── about.html
-│ ├── request_help.html
-│ ├── contact.html
-│ └── base.html
-└── README.md
-
+📁 share-n-care/
+│
+├── app.py                     # Main Flask application
+├── requirements.txt           # Python dependencies
+│
+├── static/                    # Static assets (CSS, JS, Images)
+│   ├── css/
+│   │   └── style.css          # Custom styles
+│   ├── js/
+│   │   └── main.js            # Interactive scripts
+│   └── assets/
+│       └── hero-bg.jpg        # Background and visual assets
+│
+├── templates/                 # HTML templates
+│   ├── base.html              # Common layout
+│   ├── index.html             # Homepage
+│   ├── about.html             # About page
+│   ├── request_help.html      # Help request page
+│   └── contact.html           # Contact page
+│
+└── README.md                  # Project overview and setup guide
 
 ---
 
