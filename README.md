@@ -14,6 +14,7 @@ Designed with empathy and simplicity, Share n Care promotes small acts of kindne
 
 ## 🧩 Project Structure
 
+<pre>
 share-n-care/
 │
 ├── app.py                     # Main Flask application
@@ -35,6 +36,7 @@ share-n-care/
 │   └── contact.html           # Contact page
 │
 └── README.md                  # Project overview and setup guide
+</pre>
 
 
 ## ⚙️ Setup Instructions
