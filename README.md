@@ -43,15 +43,19 @@ share-n-care/
    cd share-n-care
 
 Create a virtual environment (optional but recommended)
+    ```bash
     python -m venv venv
     venv\Scripts\activate   # On Windows
     source venv/bin/activate   # On macOS/Linux
 
 Install dependencies
+    ```bash
     pip install -r requirements.txt
 
 Run the app
+    ```bash
     python app.py
 
 Open in browser
+    ```bash
     http://localhost:5000
