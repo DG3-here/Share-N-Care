@@ -14,7 +14,7 @@ Designed with empathy and simplicity, Share n Care promotes small acts of kindne
 
 ## 🧩 Project Structure
 
-📁 share-n-care/
+share-n-care/
 │
 ├── app.py                     # Main Flask application
 ├── requirements.txt           # Python dependencies
